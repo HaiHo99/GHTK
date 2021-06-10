@@ -1,0 +1,21 @@
+{
+	"namespace" : "Week2",
+	"type" : "record",
+	"name" : "employee",
+	"fields" : [
+		{"name" : "ID" , "type" : "int"},
+		{"name" : "address" , "type" : {
+			"type" : "record",
+			"name" : "Address",
+		"fields" : [
+		{"name" : "pinCode", "type" : "int" },
+		{"name" : "streetName", "type" : "string"}
+
+		]
+
+	}},
+		{"name": "email","type":"string"},
+		{"name": "name", "type":"string"}
+
+	]
+}
