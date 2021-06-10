@@ -20,7 +20,7 @@ import java.util.Properties;
 
 public class Producer {
     public static void main(String[] args) throws IOException {
-        Schema schema = new Schema.Parser().parse(new File("C:\\Users\\Hai\\Desktop\\haiht34\\emp.avsc"));
+        Schema schema = new Schema.Parser().parse(new File("C:\\Users\\Hai\\eclipse-workspace\\GHTK\\src\\Week2\\emp.avsc"));
         String topic="haiht34_serializer2";
         GenericRecord e1=new GenericData.Record(schema);
         GenericData.Record ad = new GenericData.Record(schema.getField("address").schema());
