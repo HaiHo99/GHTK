@@ -1,5 +1,5 @@
 Insert 1 lúc 5M records
-Mỗi lần excute là insert 1000 bản ghi vào csdl, lặp lại đến đủ 5M
+Mỗi lần excute là insert 5000 bản ghi vào csdl, lặp lại đến đủ 5M
 
 Thời gian gen dữ liệu: 5 phút
-Thời gian đọc từ file csv -> insert vào database:  phút
+Thời gian đọc từ file csv -> insert vào database: 45 phút
