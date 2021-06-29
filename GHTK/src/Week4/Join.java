@@ -187,10 +187,10 @@ public class Join {
                 {
                     PeopleRecord record1 = (PeopleRecord)record;
                     output.append(record1.id).append(",");
-                    output.append(record1.city).append(",");
-                    output.append(record1.email).append(",");
                     output.append(record1.firstName).append(",");
                     output.append(record1.lastName).append(",");
+                    output.append(record1.city).append(",");
+                    output.append(record1.email).append(",");
                     output.append(professionKey.profession).append(",");
                     output.append(record1.fieldName).append(",");
                     output.append(salary);
