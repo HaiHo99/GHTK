@@ -45,7 +45,7 @@ GET dantri_haiht34/_search
       ]
       , "must_not": [
         {
-          "match_phrase": {
+          "match": {
             "description.keyword": "Hà Nội"
           }
         }
